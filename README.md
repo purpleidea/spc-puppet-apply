@@ -1,4 +1,4 @@
-This is an SPC (super privileged container) for puppet apply.
+# This is an SPC (super privileged container) for puppet apply.
 
 It is distributed with an omv.yaml file for ease in setting up and testing an
 example environment built by Oh-My-Vagrant. Nothing in this SPC *depends* on
