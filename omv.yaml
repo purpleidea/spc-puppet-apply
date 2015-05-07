@@ -1,0 +1,28 @@
+---
+:domain: example.com
+:network: 192.168.123.0/24
+:image: centos-7.1-docker
+:boxurlprefix: ''
+:sync: rsync
+:folder: ''
+:extern:
+- type: git
+  system: docker
+  repository: https://github.com/purpleidea/spc-puppet-apply
+  directory: spc-puppet-apply
+:puppet: false
+:classes: []
+:docker: []
+:kubernetes: false
+:ansible: []
+:playbook: []
+:cachier: false
+:vms: []
+:namespace: omv
+:count: 1
+:username: ''
+:password: ''
+:poolid: true
+:repos: []
+:update: false
+:reallyrm: false
