@@ -25,4 +25,5 @@
 :poolid: true
 :repos: []
 :update: false
+:comment: spc for puppet apply
 :reallyrm: false
